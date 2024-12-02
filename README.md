@@ -14,7 +14,7 @@
      
    FROM nginx:latest = Use the Nginx image
    
-   COPY ./html /usr/share/nginx/html = Copy files from the html folder to the Nginx folder
+   COPY ./html /usr/share/nginx/html = Copy the website files to the container
 
 ### Step 4. Make Website Files: 
  Create a folder named html inside your project directory and add an index.html , style.css and any other required files.
