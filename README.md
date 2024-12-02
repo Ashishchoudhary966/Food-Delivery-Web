@@ -81,11 +81,20 @@ Before you can push an image, you need to log in to Docker Hub from your termina
 -  Enter your Docker Hub username and password when prompted.
 -  If you don’t have an account, create one at Docker Hub.
 
-2. **Push the image:**
+2. **Tag the image:**
+   ```bash
+   docker tag <your-image-name> <your-dockerhub-username>/<your-image-name>:latest
+   ```
+ - for example my Docker Hub user name is "ashishchoudhary966" and my image name is "project2-image" so, I write this command-
+   ```bash
+   docker tag project2-image ashishchoudhary966/project2-image:latest
+   ```
+
+3. **Push the image:**
    ```bash
    docker push <your-dockerhub-username>/<your-image-name>
    ```
-   for example my Docker Hub user name is "ashishchoudhary966" and my image name is "project2-image" so I write this command-
+ - For example my command is:
    ```bash
    docker push ashishchoudhary966/project2-image
    ```
@@ -148,7 +157,7 @@ Before you can push an image, you need to log in to Docker Hub from your termina
 
 ---
 
-- Now you can also pull my Docker Hub image by using this command 
+- Now you can also pull my image from Docker Hub by using this command 
 ```bash
 docker pull ashishchoudhary966/project2-image
 ```
