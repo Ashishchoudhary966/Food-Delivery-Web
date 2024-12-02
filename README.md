@@ -66,7 +66,7 @@ Open a browser and visit localhost:8080 to see website.
  
    docker rm project2-container
 
-### Notes:
+### Note:
 Now you can also pull my image from Docker Hub by using this command 
 
 docker pull ashishchoudhary966/project2-image
