@@ -148,7 +148,7 @@ Before you can push an image, you need to log in to Docker Hub from your termina
 
 ---
 
-- Now you can also access my Docker Hub image by using this command 
+- Now you can also pull my Docker Hub image by using this command 
 ```bash
 docker pull ashishchoudhary966/project2-image
 ```
